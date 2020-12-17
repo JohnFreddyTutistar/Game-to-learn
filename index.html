@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma</title>
+    <script src="js/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>  
+    <table>
+        <tr>
+            <td id="title"><h1>SUMA</h1></td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><label for="">Numero 1</label></td><td><div id="num1"></div></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Numero 2</label></td><td><div id="num2"></div></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Resultado</label></td><td><input type="text" name="" id="txtResultado" placeholder="Escribe tu respuesta aquí"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td id="menu">
+                <input type="button" value="Generar Numeros" id="btnGenerar">
+                <input type="button" value="Validar" id="btnValidar">
+                <input type="button" value="Limpiar" id="btnClear">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="resultado">
+                    <p>Intentos: 0 // Aciertos: 0 // Errores: 0</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div id="bkg"></div>
+    <div id="msg"></div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-color: rgb(159, 84, 230);
+}
+td{
+    border: solid 3px white;
+}
+#title{
+    background-color: rgb(8, 28, 119);
+    color: white;
+    text-align: center;
+    font-size: 22pt;
+}
+#num1,#num2{
+    width: 500px;
+    height: 100px;
+    text-align: right;
+}
+label{
+    font-size: 16pt;
+    font-style: oblique;
+}
+#txtResultado{
+    width: 500px;
+    border: solid 3px black;
+    border-radius: 10px;
+    border-color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 16pt;
+    background-color: navy;
+    color: white;
+}
+#menu{
+    text-align: center;
+}
+.estrella{
+    width: 70px;
+}
+input[type="button"]{
+    width: 175px;
+    height: 35px;
+    background-color: rgb(13, 13, 173);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[value="Cerrar"]{
+    background-color: red;
+}
+#resultado{
+    font-size: 25px;
+}
+#msg,#bkg{
+    display: none;
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 30%;
+    left: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.cara{
+    height: 40%;
+}
+#bkg{
+    background-color: navy;
+    opacity: 0.8;
+    z-index: 0;
+}
+#msg{
+    z-index: 1  ;
+}
